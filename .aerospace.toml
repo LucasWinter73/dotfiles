@@ -143,6 +143,10 @@ automatically-unhide-macos-hidden-apps = false
 
     # Fullscreen bindings
     alt-ctrl-period = 'fullscreen'
+
+	# Open Terminal on keyboard shortcut
+	alt-enter = 'exec-and-forget open -n /System/Applications/Utilities/Terminal.app'
+	alt-d = 'exec-and-forget open -n /System/Applications/DeepSeek | 深度求索.app'
   
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
