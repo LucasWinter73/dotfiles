@@ -143,6 +143,7 @@ automatically-unhide-macos-hidden-apps = false
 
     # Fullscreen bindings
     alt-ctrl-period = 'fullscreen'
+	alt-ctrl-comma = 'layout floating'
 
 	# Open Terminal on keyboard shortcut
 	alt-enter = 'exec-and-forget open -n /System/Applications/Utilities/Terminal.app'
