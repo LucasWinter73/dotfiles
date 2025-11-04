@@ -73,7 +73,7 @@ function! RainbowIndent()
     syntax match RainbowLevel9   /^\t\t\t\t\t\t\t\t\t/
     syntax match RainbowLevel10  /^\t\t\t\t\t\t\t\t\t\t/
     syntax match RainbowLevel11  /^\t\t\t\t\t\t\t\t\t\t\t/
-    syntax match RainbowLevel12  /^\t\t\t\t\t\t\t\t\t\t\t\t/
+	syntax match RainbowLevel12  /^\t\t\t\t\t\t\t\t\t\t\t\t/
 endfunction
 
 " Apply the rainbow indent colors whenever a buffer is opened
@@ -89,3 +89,27 @@ set noexpandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+
+set number          " Show absolute line number for current line
+set relativenumber  " Show relative line numbers for other lines
+highlight LineNr ctermfg=250 guifg=#bcbcbc
+
+
+" Smart searching
+set ignorecase      " Ignore case when searching
+set smartcase       " Unless search contains uppercase
+set incsearch       " Show matches as you type
+
+" Better scrolling
+set scrolloff=5     " Keep 5 lines above/below cursor
+set sidescrolloff=5 " Keep 5 lines left/right
+
+" Quality of life
+set wildmenu        " Visual autocomplete for commands
+set showcmd         " Show partial commands in status line
+set lazyredraw      " Redraw only when needed (faster macros)
+
+
+
+
+
