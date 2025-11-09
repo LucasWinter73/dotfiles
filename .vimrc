@@ -101,8 +101,8 @@ set smartcase       " Unless search contains uppercase
 set incsearch       " Show matches as you type
 
 " Better scrolling
-set scrolloff=5     " Keep 5 lines above/below cursor
-set sidescrolloff=5 " Keep 5 lines left/right
+set scrolloff=7     " Keep 5 lines above/below cursor
+set sidescrolloff=7 " Keep 5 lines left/right
 
 " Quality of life
 set wildmenu        " Visual autocomplete for commands
