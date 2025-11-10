@@ -127,6 +127,7 @@ exec-on-workspace-change = [
 	alt-u = 'workspace 7'
 	alt-i = 'workspace 8'
 	alt-o = 'workspace 9'
+	alt-p = 'workspace 10'
 
 	# See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 	alt-shift-q = 'move-node-to-workspace 1 --focus-follows-window'
@@ -138,6 +139,7 @@ exec-on-workspace-change = [
 	alt-shift-u = 'move-node-to-workspace 7 --focus-follows-window'
 	alt-shift-i = 'move-node-to-workspace 8 --focus-follows-window'
 	alt-shift-o = 'move-node-to-workspace 9 --focus-follows-window'
+	alt-shift-p = 'move-node-to-workspace 10 --focus-follows-window'
 
 	# See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
 	alt-tab = 'workspace-back-and-forth'
