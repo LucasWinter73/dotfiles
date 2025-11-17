@@ -16,10 +16,10 @@ recent.display_filter: eth.src == 16:25:7c:ad:73:0e
 
 # Main window geometry.
 # Decimal numbers.
-gui.geometry_main_x: 12
+gui.geometry_main_x: 1372
 gui.geometry_main_y: 50
-gui.geometry_main_width: 2032
-gui.geometry_main_height: 1239
+gui.geometry_main_width: 684
+gui.geometry_main_height: 1238
 
 # Main window maximized.
 # true or false (case-insensitive).
@@ -27,7 +27,7 @@ gui.geometry_main_maximized: false
 
 # Main window geometry state.
 # Hex byte string.
-gui.geometry_main: 01d9d0cb000300000000000c00000032000007fb000005240000000c0000004e000007fb00000524000000000000000008080000000c0000004e000007fb00000524
+gui.geometry_main: 01d9d0cb000300000000055c0000003200000807000005230000055c0000004e0000080700000523000000000000000008080000055c0000004e0000080700000523
 
 # Leftalign Action Buttons.
 # true or false (case-insensitive).
