@@ -154,7 +154,6 @@ exec-on-workspace-change = [
 
 	# Fullscreen bindings
 	alt-f = 'fullscreen'
-	alt-g = 'layout floating'
 
 	# Open Terminal on keyboard shortcut
 	alt-enter = 'exec-and-forget open -n /System/Applications/Utilities/Terminal.app'
